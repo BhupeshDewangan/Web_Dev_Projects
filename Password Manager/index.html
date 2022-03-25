@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="main.js"> -->
+</head>
+<body>
+    <!-- <img src="/icon/password-manager-saving-information.jpg" id="passimg"> -->
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="MENU/about.html">About</a>
+
+        <br>    
+        <!-- <a href="MENU/contact.html">Services</a>
+        <a href="MENU/about.html">Clients</a> -->
+        <a href="MENU/contact.html">Contact</a>
+    </div>
+  
+  <span id="spanmenu2"><span id="menu" onclick="openNav()">&#9776; MENU</span></span> 
+
+<form action="index.php">     
+    
+    <div id="container">
+    <h1 style="text-align:center">Homepage</h1>
+
+    <button id=btn1>
+        <a href="PassSaver/index.html"> Password Saver </a>
+    </button>
+
+
+    <button id=btn2>
+        <a href="passgen/index.html"> Password Generator</a>
+    </button>
+
+    <button id=btn3>
+        <a href="Display/index.php"> Display </a>
+    </button>
+</div>
+
+</form>
+
+
+<!-- javascript For MENU -->
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "240px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+<!-- javascript For MENU -->
+
+    
+</body>
+</html>
