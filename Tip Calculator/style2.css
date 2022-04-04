@@ -1,0 +1,134 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background: -webkit-linear-gradient(to left, #d13434 #6ff0e9);
+    background: linear-gradient(to left, #b9d43e rgb(24, 83, 24));
+    border-radius: 12px;
+}
+
+#container{
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    padding: 20px;
+    margin: 150px auto;
+    background: #aab98d;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    border: 1px solid black;
+    /*-webkit-border-radius:  20px;
+      -moz-border-radious: 20px;*/
+    
+}
+
+h1{
+    background:#051937;
+    color: rgb(230, 245, 179);
+    margin-top: -20px;
+    padding-right: 22px;
+    padding: 10px 100px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: normal;
+    border-radius: 10px;
+    text-align: center;
+
+
+
+}
+
+form  input,input{
+    padding-left: 20px;
+    align-items: center;
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 1px;
+
+
+}
+
+#billamt{
+    
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+#billamt:focus {
+    background: rgb(245, 245, 245);
+    border: 2px solid #0f6eda;
+    outline: none;
+}
+
+#peopleamt{
+    width: 80%;
+    margin-left: 12px;
+    font-size: 17px;
+    background-color: rgb(245, 245, 245);
+}
+
+#serviceQual{
+    padding: 9px;
+    margin-left: 13px;
+    font-size: 17px;
+    border-radius: 5px;
+
+}
+
+button{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 25px auto;
+    background: #051937;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+    color: white;
+}
+
+button:hover{
+    background: rgb(10, 158, 54);
+}
+
+button:active{
+    position: relative;
+    top: 1px;
+}
+
+#totalTip{
+    font-size: 35px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#totalTip:before{
+    padding-top: 36px;
+    margin: 9px;
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: capitalize;
+}
+
+#totalTip{
+    font-size: 40px;
+    font: bold;
+    top: -18px;
+}
+
+#totalTip small{
+    padding-bottom: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+.rupees{
+    font-size: large;
+    font-weight: bold;
+}

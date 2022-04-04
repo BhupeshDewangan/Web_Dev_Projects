@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="icons8-calculate-96.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="/style2.css">
+</head>
+<body>
+    
+    <div id="container">
+        <h1>Tip Calculator</h1>
+        <div id="calculator">
+
+            <form action="">
+                <p>How much was your bill ?</p>
+                <p class="rupees">
+               Rs. <input type="text" id="billamt" placeholder="Bill Amount">
+            </p> 
+            How was your services ?    
+            </p>
+
+            <select name="" id="serviceQual">
+                <option disabled selected value="0">--Choose an Option--</option>
+                <option value="0.25">25&#37; &#45; Outstanding !</option>
+                <option value="0.2">20&#37; &#45; Very Good</option>
+                <option value="0.15">15&#37; &#45; Good</option>
+                <option value="0.1">10&#37; &#45;  It was OK</option>
+                <option value="0.05">5&#37; &#45; bad</option>
+            </select>
+
+            </form>
+
+            <p> How many puople are sharing the bill ?</p>
+
+            <input id="peopleamt" placeholder="Number of Peoples" type="text"> Peoples
+
+            <button type="button" id="calculate">Calculate</button>
+
+    </div>
+
+        <!--calculator end-->
+        <div id="totalTip">
+            <sup>Rs.</sup> <span id="tip">0.00</span>
+            <small id="each">Each</small>
+        </div>
+     <!--tottalTip end-->
+    </div>
+
+    <!--Container end-->
+<script src="/script2.js"></script>
+
+</body>
+</html>
